@@ -1,0 +1,111 @@
+/* universal elements */
+*{
+    font-family: Verdana;
+}
+
+body{
+    background-color: rgb(179, 199, 183);
+    /* background-image: url("imgs/background2.jpg") */
+}
+
+.top{
+    border-color: rgb(152, 10, 165);
+    border-width: 2px;
+    border-style: solid;
+    background:white;   
+    width: 98%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.button{
+  background-color: #15d0ff;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 150px;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.button:hover{
+  background-color: green;
+  color:white;
+}
+
+.final{
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    width: 99%;
+}
+
+/* homepage */
+
+#inner{
+    display: inline-block;
+    height: 250px;
+    width: 900px;
+}
+
+.infobox{
+    border-color: rgb(152, 10, 165);
+    border-width: 2px;
+    border-style: solid;
+    height: 100%;
+    width: 35%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(250, 250, 248);
+}
+
+#imgdiv{
+    text-align: center;
+    float: left;
+    width: 29%; /* 1% width not included in imgdiv and infobox likely due to borders */
+}
+
+#portrait{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(152, 10, 165);
+    height: 250px; /* 100% of the inner div height, same as infobox */
+    width: 200px; /* 5:4 aspect ratio */
+}
+
+/* projects page */
+
+.projects{
+    border-color: rgb(152, 10, 165);
+    border-width: 2px;
+    border-style: solid;
+    background:white;   
+    width: 70%;
+    display: inline-block;
+    padding: 10px;
+}
+
+#projimg{
+    height: 204.8px;
+    width: 381px;
+    max-width: 95%; /*ensures the image width doesn't exceed div */
+}
+
+/* blog page */
+
+#blogimg{
+    height: 256px;
+    width: 382.5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(152, 10, 165);
+}
